@@ -1,0 +1,37 @@
+{
+  "name": "jellybeans-broker",
+  "version": "1.0.0",
+  "description": "Queue task broker based on rethinkdb streams",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/velocityzen/jellybeans-broker.git"
+  },
+  "keywords": [
+    "log",
+    "stream",
+    "rethinkdb",
+    "realtime",
+    "message",
+    "task",
+    "broker",
+    "manager"
+  ],
+  "author": "Alexey Novikov <v@2dubs.com> (http://2dubs.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/velocityzen/jellybeans-broker/issues"
+  },
+  "homepage": "https://github.com/velocityzen/jellybeans-broker#readme",
+  "devDependencies": {
+    "jasmine": "^2.6.0",
+    "jellybeans": "^1.0.0",
+    "rethinkdbdash": "^2.3.23"
+  },
+  "dependencies": {
+    "jellybeans": "^1.0.0"
+  }
+}
